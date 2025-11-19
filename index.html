@@ -5,14 +5,14 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Resident Permit</title>
 <style>
-  body{margin:0;background:#f7f7f7;font-family:-apple-system,system-ui,sans-serif;color:#000}
-  .header{background:#00a65a;color:#fff;text-align:center;padding:48px 20px;font-size:58px;font-weight:900}
+  body{margin:0;background:#f7f7f7;font-family:-apple-system,system-ui,sans-serif}
+  .header{background:#00a65a;color:#fff;text-align:center;padding:50px 20px;font-size:58px;font-weight:900}
   .card{background:#fff;margin:16px;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,0.1)}
-  .top{display:flex;align-items:center;gap:14px;padding:18px 20px}
-  .qr-icon{font-size:42px;color:#000}
-  .number{font-size:50px;font-weight:800}
+  .toprow{display:flex;align-items:center;gap:16px;padding:20px}
+  .qr{font-size:40px}
+  .number{font-size:52px;font-weight:800;color:#000}
   .pill{background:#00a65a;color:#fff;padding:6px 16px;border-radius:20px;font-size:14px;font-weight:800}
-  .car-icon{font-size:40px;color:#888}
+  .car{font-size:40px;color:#888}
   .row{display:flex;justify-content:space-between;align-items:center;padding:16px 20px;border-top:1px solid #eee}
   .label{color:#666;font-size:16px}
   .value{font-size:24px;font-weight:600}
@@ -20,7 +20,6 @@
   .section{margin:0 16px 24px;background:#fff;padding:20px;border-radius:16px;box-shadow:0 2px 12px rgba(0,0,0,0.06)}
   .section h3{margin:0 0 8px;color:#00a65a;font-size:18px;font-weight:600}
   .section p{margin:0;line-height:1.5;font-size:15px;color:#444}
-  .footer{text-align:center;padding:30px;color:#888;font-size:14px}
 </style>
 </head>
 <body>
@@ -28,11 +27,11 @@
 <div class="header">ACTIVE</div>
 
 <div class="card">
-  <div class="top">
-    <div class="qr-icon">QR</div>
+  <div class="toprow">
+    <div class="qr">QRcode</div>
     <div class="number">4108092</div>
     <div class="pill">ACTIVE</div>
-    <div class="car-icon">Car</div>
+    <div class="car">Car</div>
   </div>
 
   <div class="row">
@@ -58,8 +57,6 @@
   <h3>Use Requirements</h3>
   <p>Window Decal must be active and valid for the parked vehicle and location. Use of an inactive, revoked, or invalid Window Decal may result in citation, booting, immobilization, or towing at owner's expense.</p>
 </div>
-
-<div class="footer">smartpermit clone</div>
 
 </body>
 </html>
